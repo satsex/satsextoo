@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia Virtual SAT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://via.placeholder.com/16x16">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="https://via.placeholder.com/150x50" alt="Logo de la SAT" class="logo">
+            <h1 class="header-title">Agencia Virtual</h1>
+        </div>
+        <nav class="top-nav">
+            <a href="#" class="nav-link">Ayuda</a>
+            <a href="#" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="login-box">
+            <h2 class="login-box-title">Acceso a la Agencia Virtual</h2>
+            <form action="#" method="POST" id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="nit">NIT / Usuario</label>
+                    <input type="text" id="nit" name="nit" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-actions">
+                    <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                    <button type="submit" class="login-button">Iniciar Sesión</button>
+                </div>
+            </form>
+            <div class="new-user-section">
+                <p>¿Aún no tienes usuario?</p>
+                <a href="#" class="register-button">Solicitar Usuario</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 SAT - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
